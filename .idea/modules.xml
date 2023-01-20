@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/vehcile-register-ui.iml" filepath="$PROJECT_DIR$/vehcile-register-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/vehicle-register-app.iml" filepath="$PROJECT_DIR$/.idea/vehicle-register-app.iml" />
     </modules>
   </component>
 </project>

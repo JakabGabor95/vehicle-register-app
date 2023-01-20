@@ -5,6 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../vehicle-register-persistence-storage/vehicle-register-persistence-storage/pom.xml" />
+        <option value="$PROJECT_DIR$/../../vehicle-register-starter/vehicle-register-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/../../vehicle-register-ui/vehicle-register-ui/pom.xml" />
       </list>
     </option>
   </component>

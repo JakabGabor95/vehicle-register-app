@@ -1,0 +1,6 @@
+hu/ltk/jakabgabor/domain/Vehicle.class
+hu/ltk/jakabgabor/domain/VehicleType.class
+hu/ltk/jakabgabor/interfaces/VehicleDisplayInterface.class
+hu/ltk/jakabgabor/interfaces/VehicleRegisterInteractorInterface.class
+hu/ltk/jakabgabor/domain/VehicleRegisterInteractor.class
+hu/ltk/jakabgabor/interfaces/PersistenceInterface.class

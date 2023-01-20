@@ -1,0 +1,6 @@
+/Users/macbookpro/Desktop/bootcamp/vehicle-register/vehicle-register-app/vehicle-register-app/src/main/java/hu/ltk/jakabgabor/domain/Vehicle.java
+/Users/macbookpro/Desktop/bootcamp/vehicle-register/vehicle-register-app/vehicle-register-app/src/main/java/hu/ltk/jakabgabor/interfaces/VehicleDisplayInterface.java
+/Users/macbookpro/Desktop/bootcamp/vehicle-register/vehicle-register-app/vehicle-register-app/src/main/java/hu/ltk/jakabgabor/interfaces/PersistenceInterface.java
+/Users/macbookpro/Desktop/bootcamp/vehicle-register/vehicle-register-app/vehicle-register-app/src/main/java/hu/ltk/jakabgabor/interfaces/VehicleRegisterInteractorInterface.java
+/Users/macbookpro/Desktop/bootcamp/vehicle-register/vehicle-register-app/vehicle-register-app/src/main/java/hu/ltk/jakabgabor/domain/VehicleRegisterInteractor.java
+/Users/macbookpro/Desktop/bootcamp/vehicle-register/vehicle-register-app/vehicle-register-app/src/main/java/hu/ltk/jakabgabor/domain/VehicleType.java

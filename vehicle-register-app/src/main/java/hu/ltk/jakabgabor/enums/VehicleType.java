@@ -1,4 +1,4 @@
-package hu.ltk.jakabgabor.domain;
+package hu.ltk.jakabgabor.enums;
 
 public enum VehicleType {
     m1,

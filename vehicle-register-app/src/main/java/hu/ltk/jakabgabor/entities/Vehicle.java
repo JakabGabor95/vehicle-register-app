@@ -1,4 +1,6 @@
-package hu.ltk.jakabgabor.domain;
+package hu.ltk.jakabgabor.entities;
+
+import hu.ltk.jakabgabor.enums.VehicleType;
 
 public class Vehicle {
     private String registrationNumber;
@@ -55,5 +57,16 @@ public class Vehicle {
 
     public void setVehicleType(VehicleType vehicleType) {
         this.vehicleType = vehicleType;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "registrationNumber='" + registrationNumber + '\'' +
+                ", make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", numberOfSeats=" + numberOfSeats +
+                ", vehicleType=" + vehicleType +
+                '}';
     }
 }

@@ -29,4 +29,14 @@ public class NewVehicleValidator {
             throw new RuntimeException(e);
         }
     }
+
+    public void checkValidRegistrationNumber(String registrationNumberJson){
+        try {
+            if (registrationNumberJson == null) {
+                throw new NullPointerException();
+            }
+        }catch (NullPointerException e){
+            throw new RuntimeException(e);
+        }
+    }
 }

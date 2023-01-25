@@ -1,6 +1,5 @@
 package hu.ltk.jakabgabor.services;
 
-//import com.google.gson.Gson;
 import hu.ltk.jakabgabor.entities.Vehicle;
 import hu.ltk.jakabgabor.interfaces.PersistenceInterface;
 import hu.ltk.jakabgabor.interfaces.VehicleDisplayInterface;
@@ -14,21 +13,29 @@ public class VehicleRegisterInteractor implements VehicleRegisterInteractorInter
  private NewVehicleValidator newVehicleValidator = new NewVehicleValidator();
  private VehicleParser vehicleParser = new VehicleParser();
 
-    public VehicleRegisterInteractor(VehicleDisplayInterface vehicleDisplayInterface, PersistenceInterface persistenceInterface) {
+    public VehicleRegisterInteractor(VehicleDisplayInterface vehicleDisplayInterface,
+                                     PersistenceInterface persistenceInterface) {
         this.vehicleDisplayInterface = vehicleDisplayInterface;
         this.persistenceInterface = persistenceInterface;
     }
 
     @Override
     public void createNewVehicle(String vehicleJson) {
+        //Validator:
+//        parse
+//        üzleti logika
+//        válasz
         Vehicle vehicle = newVehicleValidator.vehicleIsNull(vehicleJson);
+
         persistenceInterface.save(vehicle);
     }
 
     @Override
     public void getVehicleByRegistrationNumber(String registrationNumberJson) {
         String registrationNumber = newVehicleValidator.registrationNumberIsNull(registrationNumberJson);
+        System.out.println(registrationNumber);
         Vehicle vehicle = persistenceInterface.getVehicleByRegistrationNumber(registrationNumber);
+        System.out.println(vehicle);
         vehicleDisplayInterface.display(vehicleParser.parseVehicleToJson(vehicle));
     }
 }

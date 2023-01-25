@@ -5,4 +5,5 @@ hu/ltk/jakabgabor/interfaces/VehicleRegisterInteractorInterface.class
 hu/ltk/jakabgabor/services/VehicleRegisterInteractor.class
 hu/ltk/jakabgabor/interfaces/PersistenceInterface.class
 hu/ltk/jakabgabor/parser/VehicleParser.class
+hu/ltk/jakabgabor/dto/VehicleDTO.class
 hu/ltk/jakabgabor/validators/NewVehicleValidator.class
